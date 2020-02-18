@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    char color[20];char pluralNoun[20];char person[20];
+printf("Enter color : ");
+scanf("%s",color);
+printf("Enter pluralNoun : ");
+scanf("%s",pluralNoun);
+printf("Enter person : ");
+scanf("%s",person);
+printf("Roses are %s \n",color);
+printf("%s is blue \n",pluralNoun);
+printf("I love %s",person);
+}
+
