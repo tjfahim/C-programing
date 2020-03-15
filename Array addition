@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+int a[199],b,i,s=0;
+printf("Enter array number");
+scanf("%d",&b);
+for (i=1;i<=b;i++){
+    scanf("%d",&a[i]);
+}
+for(i=1;i<=b;i++){
+    s=s+a[i];
+
+}
+printf("%d",s);
+}
